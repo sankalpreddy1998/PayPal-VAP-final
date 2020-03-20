@@ -1,4 +1,5 @@
 # VAP final assignment
+<hr>
 
 ### Contents
 
@@ -10,7 +11,7 @@
 * Implementaion Details
    - Authentication and Authorization
    - Multi-Level Categorization of products
-* How i solved **fixing attributes to products based on the category of the product**
+* How i solved ```fixing attributes to products based on the category of the product```
 * Priveleges required for accessing resources
 * Documentaion and API Links
 <hr>

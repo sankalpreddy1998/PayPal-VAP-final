@@ -1,17 +1,14 @@
 openapi: 3.0.0
 info:
-  title: main-api
+  title: Product Management System-api
   version: v1
-  contact:
-    name: T V Sai Sankalp Reddy
-    email: sankalp.tvr@gmail.com
+  contact: {}
+  description: "# VAP final assignment\n<hr>\n\n<br>\n\n### Highlights:\n\n<br>\n\n* Respose sends back trouble-shooting steps for user to follow when the face errors.\n<br>\n\n* HATEOS in get request make API more intutive as the responses are informative and self-descriptive.\n<br>\n\n* Successful applied constrains on Product attributes with the help of JOI.\n<br>\n\n* Cachebility in get request that need to be frequently accessed. This increses speed and performance on client-side.\n<br>\n\n* API has almost been implemented.\n<br>\n  \n  \n<br>\n### Please change the url to implemented API \n\n\n\n\n\n\n"
 servers:
-# Added by API Auto Mocking Plugin
-  - description: My Implementation Of the Api
-    url: 'http://183fd6d9.ngrok.io'
+  - description: My API
+    url: 'https://vap-pms.herokuapp.com/'
   - description: SwaggerHub API Auto Mocking
-    url: https://virtserver.swaggerhub.com/sankalpreddy/sankalp.vap/v1
-  
+    url: 'https://virtserver.swaggerhub.com/sankalpreddy/sankalp.vap/v1'
 paths:
   /admin/register:
     post:
@@ -4466,7 +4463,6 @@ components:
         - address
         - name
     Model-Inventory:
-
       type: object
       properties:
         id:
@@ -4500,33 +4496,6 @@ components:
           type: string
         category_schema:
           type: object
-    Model-L1-category:
-      type: object
-      properties:
-        id:
-          type: string
-        name:
-          type: string
-        sub_categories:
-          type: array
-          items:
-            $ref: '#/components/schemas/Model-L2-category'
-      required:
-        - id
-    Model-L2-category:
-      type: object
-      x-examples: {}
-      properties:
-        id:
-          type: string
-        name:
-          type: string
-        sub_categories:
-          type: array
-          items:
-            $ref: '#/components/schemas/Model-Category'
-      required:
-        - id
     Request_user_post:
       title: Request_user_post
       type: object
@@ -4675,6 +4644,33 @@ components:
               - pincode
         role:
           type: string
+    Model-L1-category:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        sub_categories:
+          type: array
+          items:
+            $ref: '#/components/schemas/Model-L2-category'
+      required:
+        - id
+    Model-L2-category:
+      type: object
+      x-examples: {}
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        sub_categories:
+          type: array
+          items:
+            $ref: '#/components/schemas/Model-Category'
+      required:
+        - id
   parameters: {}
   securitySchemes:
     Authorization:

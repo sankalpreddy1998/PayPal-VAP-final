@@ -1,7 +1,25 @@
 # PayPal-VAP-final
 
-## My target while making this project
-* Build a rest 
+## Contents
+
+* Assigned Target
+
+* My Goals
+
+* REST 6 guiding constraints and How my API is RESTful
+   - HATEOS 
+   - Cachebility
+
+* Implementaion Details
+   - Authentication and Authorization
+   - Multi-Level Categorization of products
+   
+* How i solved fixing attributes to product based on category of product
+
+* Priveleges required for accessing resources
+
+* Documentaion and API Links
+
 
  Resources   | Links
 ------------ | -------------

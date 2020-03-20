@@ -44,6 +44,7 @@ For example,
       * Mobile Phones
       * Tables
       * Smart Watches
+
 Amazon calls these as node. They use them to categorise product in a 3 layers. I have called these:
 * Level-1-category(L1)
    * Level-2-category(L2)

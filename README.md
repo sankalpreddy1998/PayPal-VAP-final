@@ -53,7 +53,12 @@ Amazon calls these as node. They use them to categorise product in a 3 layers. I
    * Level-2-category(L2)
       * category(L3)
 
-The category(L3) determines the Attributes of the Product. For Example, Mobile Phones(memory,screen size,battery capacity etc). To achieve this i have made a service that converts a JSON schema into a JOI validation Object. The administrator creates a json representation of the object and stores it in as a category_schema. The vendor assigns a category to the product and add it to the database. The service is called during runtime and the JSON schema is converted to a JOI object which validates the attributes. The attributes are added only if they follow the constraints.
+The category(L3) determines the Attributes of the Product. For Example, Mobile Phones(memory,screen size,battery capacity etc). 
+To achieve this i have made a service that converts a JSON schema into a JOI validation Object. 
+The administrator creates a json representation of the object and stores it in as a category_schema. 
+The vendor assigns a category to the product and add it to the database. 
+The service is called during runtime and the JSON schema is converted to a JOI object which validates the attributes. 
+The attributes are added only if they follow the constraints.
 
 This brings forward tight-coupling between the attributes and the category.
 ```

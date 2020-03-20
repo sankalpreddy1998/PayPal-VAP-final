@@ -36,6 +36,7 @@
 I built the API using Express and MongoDB. Used JWT and Passport for Authentication. Once the user is authenticated middleware deside wether or not to give the user access to the resource. Passport JWTstratergy was used for authentication. 
 
 ### 5. How i solved fixing attributes to products based on the category of the product
+```
 If we see Amazon, the products are categorised into a three level categorisation. 
 For example, 
 * Electronics
@@ -55,7 +56,7 @@ Amazon calls these as node. They use them to categorise product in a 3 layers. I
 The category(L3) determines the Attributes of the Product. For Example, Mobile Phones(memory,screen size,battery capacity etc). To achieve this i have made a service that converts a JSON schema into a JOI validation Object. The administrator creates a json representation of the object and stores it in as a category_schema. The vendor assigns a category to the product and add it to the database. The service is called during runtime and the JSON schema is converted to a JOI object which validates the attributes. The attributes are added only if they follow the constraints.
 
 This brings forward tight-coupling between the attributes and the category.
-
+```
 ### 6. Priveleges required for accessing resources
 The users are given access to resource based on the role they have. The users of this application can have the following roles:
 * Adminstrator

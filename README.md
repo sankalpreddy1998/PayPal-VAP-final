@@ -1,4 +1,3 @@
-# PayPal-VAP-final
 ## VAP final assignment
 
 ### Contents

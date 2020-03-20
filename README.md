@@ -23,7 +23,10 @@
 <br>
 
 ### 1. Assigned Target
+* Design a product/inventory management system API and create Documentaion for it. The API must be documented using Swagger Tools. API must conform to OpenAPI specifications.
+
 ### 2. My Goals
+
 ### 3. REST 6 guiding constraints and How my API is RESTful
 ### 4. Implementaion Details
 ### 5. How i solved fixing attributes to product based on category of product

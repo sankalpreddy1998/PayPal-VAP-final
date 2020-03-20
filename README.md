@@ -26,6 +26,11 @@
 * Design a product/inventory management system API and create Documentaion for it. The API must be documented using Swagger Tools. API must conform to OpenAPI specifications.
 
 ### 2. My Goals
+* Design and Document API
+* Conform to the guiding constraints of REST Architecture
+* Implement an API using Express and Mongo DB
+* Use passport for user Authentication
+* Assign fixed constraints on attributes of products in a noSQL database
 
 ### 3. REST 6 guiding constraints and How my API is RESTful
 ### 4. Implementaion Details

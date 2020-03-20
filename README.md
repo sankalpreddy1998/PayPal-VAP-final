@@ -10,7 +10,7 @@
 * Implementaion Details
    - Authentication and Authorization
    - Multi-Level Categorization of products
-* How i solved fixing attributes to product based on category of product
+* How i solved 'fixing attributes to products based on the category of the product
 * Priveleges required for accessing resources
 * Documentaion and API Links
 <br>
@@ -33,7 +33,7 @@
 ### 4. Implementaion Details
 I built the API using Express and MongoDB. Used JWT and Passport for Authentication. Once the user is authenticated middleware deside wether or not to give the user access to the resource. Passport JWTstratergy was used for authentication. 
 
-### 5. How i solved fixing attributes to product based on category of product
+### 5. How i solved 'fixing attributes to products based on the category of the product
 If we see Amazon, the products are categorised into a three level categorisation. 
 For example, 
 * Electronics

@@ -4,21 +4,15 @@
 ### Contents
 
 * Assigned Target
-
 * My Goals
-
 * REST 6 guiding constraints and How my API is RESTful
    - HATEOS 
    - Cachebility
-
 * Implementaion Details
    - Authentication and Authorization
    - Multi-Level Categorization of products
-   
 * How i solved fixing attributes to product based on category of product
-
 * Priveleges required for accessing resources
-
 * Documentaion and API Links
 <br>
 
@@ -33,6 +27,9 @@
 * Assign fixed constraints on attributes of products in a noSQL database
 
 ### 3. REST 6 guiding constraints and How my API is RESTful
+* My API follows 5 of the guiding constraints. I Have made sure to use HATEOS in GET requests. This improves discoverability of resources through published set of links (provided with response) and Indicates to Clients what actions can be taken next.
+* I have implemented basic client side caching behavior in one of my get request to get list of products.
+* Follow Represent hierarchy 
 ### 4. Implementaion Details
 ### 5. How i solved fixing attributes to product based on category of product
 ### 6. Priveleges required for accessing resources

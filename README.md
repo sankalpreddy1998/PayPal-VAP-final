@@ -20,8 +20,15 @@
 * Priveleges required for accessing resources
 
 * Documentaion and API Links
+<br>
 
-### Documentaion and API Links
+### 1. Assigned Target
+### 2. My Goals
+### 3. REST 6 guiding constraints and How my API is RESTful
+### 4. Implementaion Details
+### 5. How i solved fixing attributes to product based on category of product
+### 6. Priveleges required for accessing resources
+### 7. Documentaion and API Links
  Resources   | Links
 ------------ | -------------
 Swagger Docs | https://app.swaggerhub.com/apis-docs/sankalpreddy/sankalp.vap/v1
